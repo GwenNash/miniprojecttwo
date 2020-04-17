@@ -1,0 +1,266 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  background: url(../images/nightsky.jpeg);
+}
+
+
+.background {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* animation: disappear 10s; */
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+width: 150px;
+height: 150px;
+background: yellow;
+border-radius: 200px;
+box-shadow:
+inset 0 0 50px #fff,      /* inner white */
+inset 20px 0 80px yellow,   /* inner left magenta short */
+inset -20px 0 80px orange,  /* inner right cyan short */
+inset 20px 0 300px yellow,  /* inner left magenta broad */
+inset -20px 0 300px orange, /* inner right cyan broad */
+0 0 50px #fff,            /* outer white */
+-10px 0 80px yellow,        /* outer left magenta */
+10px 0 80px orange;         /* outer right cyan */
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.neptune {
+  width: 90px;
+  height: 90px;
+  background: blue;
+  border-radius: 200px;
+  position: absolute;
+  left: 520px;
+  top: 20px;
+}
+
+.uranus {
+  width: 80px;
+  height: 80px;
+  background: lightblue;
+  border-radius: 200px;
+  position: absolute;
+  left: 550px;
+  top: 450px;
+}
+
+.saturn {
+  width: 90px;
+  height: 90px;
+  background: orange;
+  border-radius: 200px;
+  position: absolute;
+  left: 65px;
+  top: 10px;
+}
+
+.jupiter {
+  width: 120px;
+  height: 120px;
+  background: tan;
+  border-radius: 200px;
+  position: absolute;
+  left: 10px;
+  top: 340px;
+}
+
+.mars {
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 200px;
+  position: absolute;
+  left: 200px;
+  top: -20px;
+}
+
+.earth {
+  width: 75px;
+  height: 75px;
+  background: green;
+  border-radius: 200px;
+  position: absolute;
+  left: 260px;
+  top: 70px;
+}
+
+.venus {
+  width: 50px;
+  height: 50px;
+  background: darkorange;
+  border-radius: 200px;
+  position: absolute;
+  left: -15px;
+  top: 70px;
+}
+
+.mercury {
+  width: 30px;
+  height: 30px;
+  background: brown;
+  border-radius: 200px;
+  position: absolute;
+  left: 150px;
+  top: 190px;
+}
+
+.radius1 {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -110px;
+  margin-top: -110px;
+  animation: rotate 3s infinite linear;
+}
+
+.radius2 {
+  width: 270px;
+  height: 270px;
+  border-radius: 200px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -135px;
+  margin-top: -135px;
+  animation: rotate 5s infinite linear;
+}
+
+.radius3 {
+  width: 310px;
+  height: 310px;
+  border-radius: 300px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -155px;
+  margin-top: -155px;
+  animation: rotate 6s infinite linear;
+}
+
+.radius4 {
+  width: 370px;
+  height: 370px;
+  border-radius: 300px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -185px;
+  margin-top: -185px;
+  animation: rotate 8s infinite linear;
+}
+
+.radius5 {
+  width: 470px;
+  height: 470px;
+  border-radius: 300px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -235px;
+  margin-top: -240px;
+  animation: rotate 8s infinite linear;
+}
+
+.radius6 {
+  width: 550px;
+  height: 550px;
+  border-radius: 400px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -275px;
+  margin-top: -275px;
+  animation: rotate 8s infinite linear;
+}
+
+.radius7 {
+  width: 640px;
+  height: 640px;
+  border-radius: 400px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin-left: -320px;
+  margin-top: -320px;
+  animation: rotate 8s infinite linear;
+}
+
+.radius8 {
+  width: 720px;
+  height: 720px;
+  border-radius: 400px;
+  border: white 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -360px;
+  margin-top: -360px;
+  animation: rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+to { transform: rotate(359deg); }
+}
+
+/* @keyframes disappear {
+0%   { opacity: 1; }
+100% { opacity: 0; }
+} */
+
+.button:hover {
+  background:yellow;
+  transition: 1s;
+}
+
+.background:active .button .background {
+  opacity: 0;
+  transition: 1s;
+}
